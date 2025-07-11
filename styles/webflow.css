@@ -212,6 +212,7 @@
   font-weight: bold;
   height: 232px;
   width: 528px;
+  margin-left: 83px;
 }
 .gt-two{
   flex: 1;
@@ -223,6 +224,7 @@
   display: flex;
   flex-direction: column;
   text-align: left;
+  margin-right: 217px;
 }
 .gt-label{
   font-size: 18;
@@ -233,4 +235,35 @@
   font-size: 20px;
   border: #D6DDED;
   border-radius: 10px;
+}
+.gt-btn{
+  margin-right: 217px;
+}
+/* Footer Style */
+
+.footer-section{
+  text-align: center;
+  padding: 104px 455px 103px 454px;
+  background-color: white;
+}
+.footer-title{
+  font-size: 100px;
+  font-weight: 900px;
+  color: #4E47FF;
+  margin-bottom: 8px;
+}
+.footer-subtitle{
+  font-size: 16px;
+  color: #8987A1;
+  margin-bottom: 20px;
+}
+.footer-links{
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+.footer-links a{
+  font-size: 16px;
+  color: #8987A1;
+  text-decoration: none;
 }
