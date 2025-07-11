@@ -191,3 +191,46 @@
 .name{
   font-weight: 600;
 }
+
+/* Let's Get in Touch Style */
+
+.get-in-touch{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 115px;
+  padding-top: 71px;
+  padding-bottom: 71px;
+  margin: 106px 217px 0px 83px;
+}
+.gt-one{
+  flex: 1;
+  text-align: center;
+}
+.gt-title{
+  font-size: 97px;
+  font-weight: bold;
+  height: 232px;
+  width: 528px;
+}
+.gt-two{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+.gt-input{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.gt-label{
+  font-size: 18;
+  font-weight: 500;
+}
+.gt-field{
+  padding: 20px 271px 20px 32px;
+  font-size: 20px;
+  border: #D6DDED;
+  border-radius: 10px;
+}
