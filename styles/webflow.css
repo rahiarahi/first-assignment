@@ -2,7 +2,6 @@
 .inter-one{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 800;
   font-style: normal;
 }
 
@@ -11,6 +10,10 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+ body{
+  background-color: rgba(78, 71, 255, 0.06);
+ }
 
 /* Header Style */
 .header{
@@ -128,4 +131,63 @@
   font-weight: 400;
   color: #000000;
   opacity: 50%;
+}
+
+/* Users Feedback Style */
+.feedback{
+  text-align: center;
+  margin: 137px 149px 137px 151px;
+}
+.feedback-title{
+  font-size: 42px;
+  font-weight: bold;
+  color: #252432;
+}
+.reviews{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.review{
+  background-color: #FFFFFF;
+  padding: 24px;
+  height: 243px;
+  width: 367px;
+  border-radius: 14px;
+  text-align: left;
+}
+.stars{
+  color: #FFB805;
+  font-size: 30px;
+}
+.review-title{
+  font-size: 24px;
+  color: #1E1E1E;
+  margin-bottom: 8px;
+  margin-top: 24px;
+}
+.review-description{
+  font-size: 16px;
+  color: #1E1E1E;
+  margin: px 24px 24px 0px;
+}
+.profile{
+  display: flex;
+  justify-content: left;
+  gap: 6px;
+  margin-top: 24px;
+
+}
+.avatar{
+  height: 40px;
+  width: 40px;
+  border-radius: 9999%;
+}
+.profile-text{
+  font-size: 16px;
+  color: #757575;
+}
+.name{
+  font-weight: 600;
 }
