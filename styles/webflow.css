@@ -31,7 +31,7 @@
 }
 .nav-title{
   font-size: 34px;
-  font-weight: 900px;
+  font-weight: 900;
   color: #4E47FF;
 }
 .nav-btn{
@@ -41,6 +41,14 @@
   padding: 12px 36px;
   border: none;
   border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(24, 22, 22, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+.nav-btn:hover{
+  background-color: gold;
+  transform: scale(1.08);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 .banner{
   text-align: center;
@@ -229,6 +237,7 @@
 .gt-label{
   font-size: 18;
   font-weight: 500;
+  margin-bottom: 10px;
 }
 .gt-field{
   padding: 20px 271px 20px 32px;
